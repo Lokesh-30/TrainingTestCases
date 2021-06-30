@@ -10,7 +10,7 @@ class AssignmentTest {
 	void test() {
 		AssignmentStatement test = new AssignmentStatement();
 		int actual = test.addA(10, 10);
-		int expected =  20;
+		int expected =  21;
 		assertEquals(expected,actual);
 	}
 	@Test
